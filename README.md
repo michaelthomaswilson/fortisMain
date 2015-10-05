@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Foundation libsass template
 
 This is a template to start your own project that uses Grunt and libsass!
@@ -59,3 +60,6 @@ If you'd like to upgrade to a newer version of Foundation down the road just run
 bower update
 ```
 >>>>>>> 95753fb4111b5fb88bed25123c10b508a736545f
+=======
+# fortisMain
+>>>>>>> 3f1f8482379589928ffe7d98d228511b77904b59

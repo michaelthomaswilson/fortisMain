@@ -1,13 +1,10 @@
-<<<<<<< HEAD
+
 *.DS_Store
 /css/*
 /bower_components/*
 /node_modules/*
-=======
-/bower_components/*
 /.sass-cache/*
-*.DS_Store
 /stylesheets/*
 .sass-cache
 *.css.map
->>>>>>> 95753fb4111b5fb88bed25123c10b508a736545f
+.sass-cache
