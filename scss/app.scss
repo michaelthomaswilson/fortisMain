@@ -1,6 +1,187 @@
 @import "settings";
 @import "foundation";
 
+$gray:			#525151;
+$bannerGray:	#4b4a4a;
+$copyGray:		#fdfcfc;
+$footerGray:	#77787b;
+
+$lightRed:		#ab483e; //#ab584e;
+$darkRed:		#783936; //#794643;
+$bannerRed:		#a54a3f;
+$bannerDarkRed:	#5c140b; //#5c1d14;
+
+// typography
+
+html, body {
+	height: 100%;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+body {
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
+	color: $copyGray;
+	background-color: #282828;
+}
+
+h1 {
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 500; font-style: normal;
+	color: $bannerRed;
+	font-size: 1.8rem;
+	letter-spacing: -0.02em;
+	line-height: 2rem;
+}
+
+p {
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
+	color: $copyGray;
+	font-size: 0.8rem;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+// Classes & IDs
+
+#masthead {	
+	position: fixed;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 150px;
+	background-color: #ffffff;
+	z-index: 9998;
+
+	#logo {
+
+		a {
+			display: block;
+			height: auto;
+			width: auto;
+
+			img {
+				margin: 38px auto 0 auto;
+				display: block;
+				height: 30px;
+				width: auto
+
+
+			}
+
+		}
+	}
+
+	#navigation { 
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 45px;
+
+		div {
+			text-align: center;
+
+			a {
+				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
+				color: $copyGray;
+				font-size: 14px; //rem-calc(10);
+
+				display: block;
+				vertical-align: middle;
+				width: 100%;
+				height: 45px;
+				line-height: 45px;
+				//padding: 3% 0;
+
+			}
+
+		}
+
+		div.gray {background: $gray}
+		div.lightRed {background: $lightRed}
+		div.darkRed {background: $darkRed}
+	}
+
+}
+
+#masthead {
+	height: 50px;
+
+	#logo {
+
+		a {
+
+			img {
+				margin: 15px auto 0 auto;
+				height: 20px;
+			}
+
+		}
+	}
+}
+
+#mobilemenu {
+	position: absolute;
+	top: 15px; //20px;
+	left: 20px;
+	height: 20px; //33px;
+	width: 290px; //48px;
+	background-image: url(/images/menu.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	z-index: 9999;
+	overflow: visible;
+
+	.dropdown.button::after, button.dropdown::after {
+	   display: none;
+	}
+
+	.dropdown.button, button.dropdown {
+	    //position: absolute !important;
+	    //padding-right: 3.5625rem;
+	}
+
+	button, .button {
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	    border-radius: 0;
+	    border-style: solid;
+	    border-width: 0;
+	    cursor: pointer;
+	    font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700 !important; font-style: normal;
+	    line-height: normal;
+	    //margin: 0 0 1.25rem;
+	    position: relative;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    padding: 1rem 2rem 1.0625rem 2rem;
+	    font-size: 1rem;
+	    background-color: transparent; //#008CBA;
+	    border: none; //#007095;
+	    color: transparent;
+	    transition: background-color 300ms ease-out;
+	}
+
+	ul#drop {
+		width: 280px;
+	}
+}
+
+.row {
+
+	&.fullWidth {
+	   width: 100%;
+	   margin-left: auto;
+	   margin-right: auto;
+	   max-width: initial;
+	}
+
+	.row {
+		margin: 0;
+	}
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
