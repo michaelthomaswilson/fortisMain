@@ -247,6 +247,83 @@ p {
 	}
 }
 
+// Large and up exceptions
+
+@media #{$large-up} { 
+
+	//header
+	#masthead {	
+		height: 165px;
+		background-color: #54585a;
+
+		#logo {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 480px;
+			height: 100%;
+			background-color: #fff;
+
+			a {
+				display: block;
+				height: auto;
+				width: auto;
+
+				img {
+					position: absolute;
+					top: 90px;
+					left: 100px;
+					margin: -25px auto 0 auto;
+					height: 50px;
+					display: block;
+					width: auto
+
+
+				}
+
+			}
+		}
+
+		#navigation { 
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 45px;
+
+			div {
+				text-align: center;
+
+				a {
+					font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
+					color: $copyGray;
+					font-size: 14px; //rem-calc(10);
+
+					display: block;
+					vertical-align: middle;
+					width: 100%;
+					height: 45px;
+					line-height: 45px;
+					//padding: 3% 0;
+
+				}
+
+			}
+
+			div.gray {background: $gray}
+			div.lightRed {background: $lightRed}
+			div.darkRed {background: $darkRed}
+		}
+
+	}
+
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 100%;
+	}
+
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
