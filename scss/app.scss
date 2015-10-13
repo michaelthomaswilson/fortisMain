@@ -273,6 +273,11 @@ p {
 		top: 250px;
 		left: 75px;
 		padding:4%;
+
+		&.copyTwo {
+			left: auto;
+			right: 75px !important;
+		}
 	}
 
 	.fdic {
