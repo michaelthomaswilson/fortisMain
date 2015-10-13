@@ -275,6 +275,13 @@ p {
 		padding:4%;
 	}
 
+	.fdic {
+		width: 150px;
+		float: right;
+		margin-top: 0;
+    	margin-right: 10px;
+	}
+
 	.fullHeight {
 		position: relative;
 		width: 100%;
@@ -282,6 +289,13 @@ p {
 
 		&.footer {
 			height: 650px;
+			padding-top: 150px;
+
+			h1 {
+				margin-left: 110px;
+			}
+
+			p {line-height:1.7rem;}
 		}
 	}
 
