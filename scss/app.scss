@@ -83,10 +83,29 @@ p {
 	}
 }
 
+.fdic {
+	width: 100px;
+	height: auto;
+	margin-top: 50px;
+}
+
+.footer {
+	background-color: #54585a;
+	padding: 40px 32px;
+
+	h1 {
+		color: #909597;
+		margin-top: 0;
+		line-height: 1rem;
+	}
+
+	p {
+		line-height: 0.5rem;
+	}
+}
+
 .fullHeight {
-	height: auto; //100%;
-	//min-height: 500px;
-	border: 1px solid red;
+	height: auto;
 }
 
 #masthead {	
