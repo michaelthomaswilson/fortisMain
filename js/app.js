@@ -8,7 +8,7 @@ var windowHeight;
 $(document).ready(function() {
 
 	headerHeight = $("#masthead").height();
-	windowHeight = $(window).innerHeight();
-	console.log(windowHeight);
+	height = $(window).innerHeight();
+	$('.fullscreen').css('height', '');
 
 });
