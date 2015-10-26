@@ -32,7 +32,7 @@ body {
 h1 {
 	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
 	color: #fff;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	letter-spacing: -0.02em;
 	line-height: 2rem;
 	text-transform: uppercase;
@@ -418,7 +418,7 @@ p {
 	//header
 	#masthead {	
 		background-color: #54585a;
-		height: 125px;
+		height: 120px;
 
 		.row {
 			height: 100%;
@@ -431,7 +431,7 @@ p {
 			a {
 				height: auto;
 				width: auto;
-				margin-top: 60px;
+				margin-top: 40px;
 
 				img {
 					height: 35px;
@@ -443,14 +443,14 @@ p {
 		}
 
 		.nav {
-			margin-top: 55px;
+			margin-top: 48px;
 			padding-left: 5%;
 
 			a {
 				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
 				color: $copyGray;
 				text-align: left;
-				font-size: 18px;
+				font-size: 16px;
 				line-height: 1rem;
 			}
 
@@ -482,7 +482,7 @@ and (orientation : landscape) {
 	html, body {height: 100%;}
 
 	h1 {
-		font-size: 36px;
+		font-size: 32px;
 		line-height: 2.5rem;
 	}
 
@@ -500,16 +500,20 @@ and (orientation : landscape) {
 	.copyBlock {
 		position: absolute;
 		z-index: 100;
-		width: 650px; //43%;
-		height: 590px; //50%;
-		top: 200px;
-		left: 75px;
+		width: 600px; //43%;
+		height: 500px; //50%;
+		top: 170px;
+		left: 45px;
 		padding:4%;
 
 		&.copyTwo {
-			//top: 150px;
+			height: 520px;
 			left: auto;
 			right: 75px !important;
+		}
+
+		&.copyThree {
+			height: 560px;
 		}
 	}
 
@@ -534,7 +538,7 @@ and (orientation : landscape) {
 	//header
 	#masthead {	
 		background-color: #54585a;
-		height: 125px;
+		height: 120px;
 
 		.row {
 			height: 100%;
@@ -547,7 +551,7 @@ and (orientation : landscape) {
 			a {
 				height: auto;
 				width: auto;
-				margin-top: 60px;
+				margin-top: 40px;
 
 				img {
 					height: 35px;
@@ -559,14 +563,14 @@ and (orientation : landscape) {
 		}
 
 		.nav {
-			margin-top: 55px;
+			margin-top: 44px;
 			padding-left: 5%;
 
 			a {
 				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
 				color: $copyGray;
 				text-align: left;
-				font-size: 18px;
+				font-size: 14px;
 				line-height: 1rem;
 			}
 
