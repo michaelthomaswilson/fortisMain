@@ -172,13 +172,14 @@ p {
 
 #mobilemenu {
 	position: absolute;
-	top: 15px; //20px;
-	left: 20px;
-	height: 20px; //33px;
-	width: 290px; //48px;
+	top: 15px;
+	left: 0px; //20px;
+	height: 20px;
+	width: 100%; //290px;
 	background-image: url(/images/menu2.png);
 	background-repeat: no-repeat;
 	background-size: 30px 20px;
+	background-position-x: 15px;
 	z-index: 9999;
 	overflow: visible;
 
