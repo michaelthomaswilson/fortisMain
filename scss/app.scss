@@ -88,11 +88,12 @@ p {
 	width: 100px;
 	height: auto;
 	margin-top: 0; //50px;
+	padding-bottom: 220px;
 }
 
 .footer {
 	background-color: #54585a;
-	padding: 10px 32px 90px 32px;
+	padding: 10px 32px 10px 32px;
 
 	h1 {
 		color: #909597;
@@ -289,6 +290,8 @@ p {
 			margin-right: 75px;
 		}
 	}
+
+	.fdic {margin-bottom: 0;}
 
 	.footer {
 		padding: 40px 32px;  
