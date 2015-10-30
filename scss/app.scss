@@ -272,15 +272,21 @@ p {
 	}
 
 	.badge {
+		position: absolute;
+		bottom: 5%;
+		left: 50%;
+		margin-left: -22px;
 		width: 45px;
 	}
 
 	.copyBlock {
 		position: relative;
 		z-index: 100;
-		width: 650px; //43%;
-		height: auto; //590px; //50%;
-		top: 200px;
+		width: 600px; //650px; //43%;
+		height: 600px; //auto; //590px; //50%;
+		overflow: hidden;
+		top: 50%; //200px;
+		margin-top: -240px; // 300 - 180
 		left: 75px;
 		padding:4% 4% 3% 4%;
 
@@ -365,6 +371,7 @@ p {
 
 	.photo {
 		height: 100%;
+		border: 1px solid green;
 		//min-height: 800px;
 	}
 
