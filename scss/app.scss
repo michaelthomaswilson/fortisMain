@@ -354,16 +354,35 @@ p {
 
 		.nav {
 			margin-top: 48px;
-			padding-left: 5%;
+			width: auto !important;
+			float: none !important;
+			//padding-left: 5%;
 
-			a {
-				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
-				color: $copyGray;
-				text-align: left;
-				font-size: 16px;
-				line-height: 1rem;
+			ul {
+				text-align: justify;
+
+				li {
+					display: inline-block;
+					list-style: none;
+
+					&.first {margin-left: 50px;}
+					&.last {margin-right: 50px;}
+
+					a {
+						font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
+						color: $copyGray;
+						text-align: left;
+						font-size: 16px;
+						line-height: 1rem;
+					}
+				}
 			}
 
+			ul:after {
+			  content: '';
+			  width: 100%; /* Ensures justification for single lines */
+			  display: inline-block;
+			}
 
 		}
 
