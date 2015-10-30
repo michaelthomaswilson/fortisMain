@@ -371,7 +371,6 @@ p {
 
 	.photo {
 		height: 100%;
-		border: 1px solid green;
 		//min-height: 800px;
 	}
 
@@ -397,18 +396,13 @@ p {
 
 	.badge {
 		width: 55px;
-		margin-top: 30px;
+		//margin-top: 30px;
 	}
 
 	.copyBlock {
-		position: relative;
-		z-index: 100;
-		width: 45%; //800px;
-		min-width: 800px;
-		height: auto;
-		top: 250px;
-		left: 75px;
-		padding:4% 4% 3% 4%;
+		width: 800px;
+		height: 800px;
+		margin-top: -340px;
 	}
 
 	.fdic {
@@ -419,9 +413,7 @@ p {
 	}
 
 	.fullHeight {
-		position: relative;
-		width: 100%;
-		height: 1200px; //100%;
+		//height: 1200px; //100%;
 
 		&.footer {
 			height: 650px;
@@ -434,49 +426,6 @@ p {
 			p {line-height:1.7rem;}
 		}
 	}
-
-	//header
-	/*
-	#masthead {	
-		height: 155px;
-		background-color: #54585a;
-
-		.row {
-			height: 100%;
-		}
-
-		#logo {
-			height: 100%;
-			background-color: #fff;
-
-			a {
-				height: auto;
-				width: auto;
-				margin-top: 50px;
-
-				img {
-					height: 50px;
-					display: block;
-					width: auto
-				}
-
-			}
-		}
-
-		.nav {
-			margin-top: 60px;
-			padding-left: 5%;
-
-			a {
-				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
-				color: $copyGray;
-				font-size: 21px; //rem-calc(10);
-				text-align: left;
-				line-height: 2rem;
-			}
-		}
-	}
-	*/
 
 	.photo {
 		height: 100%;
