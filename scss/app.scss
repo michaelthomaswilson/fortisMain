@@ -416,7 +416,7 @@ p {
 		//height: 1200px; //100%;
 
 		&.footer {
-			height: 650px;
+			height: 1000px;
 			padding-top: 150px;
 
 			h1 {
@@ -484,8 +484,9 @@ and (orientation : landscape) {
 
 
 		.footer {
-			height: auto;
-			padding-top: 120px;
+			height: 800px;
+			padding-top: 0;
+			//margin-bottom: 150px;
 
 			h1 {
 				margin-left: 0; //110px;
