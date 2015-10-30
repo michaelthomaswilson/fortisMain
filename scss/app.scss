@@ -335,6 +335,8 @@ p {
 		}
 
 		#logo {
+			position: relative;
+			z-index: 20;
 			height: 100%;
 			background-color: #fff;
 
@@ -470,27 +472,32 @@ and (orientation : landscape) {
 	html, body {height: 100%;}
 
 	h1 {
-		font-size: 32px;
+		font-size: 24px;
 		line-height: 2.5rem;
 	}
 
 	p {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.hide-for-large-up {display: none !important;}
 	.show-for-large-up {display: inherit !important;}
 
 	.badge {
-		width: 45px;
+		position: absolute;
+		bottom: 5%;
+		left: 50%;
+		margin-left: -22px;
+		width: 40px;
 	}
 
 	.copyBlock {
 		position: relative;
 		z-index: 100;
-		width: 600px; //43%;
-		height: auto; //500px; //50%;
-		top: 170px;
+		width: 480px; //43%;
+		height: 480px; //500px; //50%;
+		top: 50%; //145px;
+		margin-top: -275px;
 		left: 45px;
 		padding:4%;
 
@@ -504,7 +511,7 @@ and (orientation : landscape) {
 
 		.footer {
 			height: 800px;
-			padding-top: 0;
+			padding-top: 100px;
 			//margin-bottom: 150px;
 
 			h1 {
@@ -534,23 +541,25 @@ and (orientation : landscape) {
 	//header
 	#masthead {	
 		background-color: #54585a;
-		height: 120px;
+		height: 100px;
 
 		.row {
 			height: 100%;
 		}
 
 		#logo {
+			position: relative;
+			z-index: 20;
 			height: 100%;
 			background-color: #fff;
 
 			a {
 				height: auto;
 				width: auto;
-				margin-top: 40px;
+				margin-top: 35px;
 
 				img {
-					height: 35px;
+					height: 25px;
 					display: block;
 					width: auto
 				}
@@ -559,17 +568,36 @@ and (orientation : landscape) {
 		}
 
 		.nav {
-			margin-top: 44px;
-			padding-left: 5%;
+			margin-top: 35px;
+			width: auto !important;
+			float: none !important;
+			//padding-left: 5%;
 
-			a {
-				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
-				color: $copyGray;
-				text-align: left;
-				font-size: 14px;
-				line-height: 1rem;
+			ul {
+				text-align: justify;
+
+				li {
+					display: inline-block;
+					list-style: none;
+
+					&.first {margin-left: 50px;}
+					&.last {margin-right: 50px;}
+
+					a {
+						font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
+						color: $copyGray;
+						text-align: left;
+						font-size: 14px;
+						line-height: 1rem;
+					}
+				}
 			}
 
+			ul:after {
+			  content: '';
+			  width: 100%; /* Ensures justification for single lines */
+			  display: inline-block;
+			}
 
 		}
 
