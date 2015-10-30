@@ -275,8 +275,8 @@ p {
 		position: absolute;
 		bottom: 5%;
 		left: 50%;
-		margin-left: -22px;
-		width: 45px;
+		margin-left: -20px;
+		width: 40px;
 	}
 
 	.copyBlock {
@@ -288,7 +288,7 @@ p {
 		top: 50%; //200px;
 		margin-top: -235px; // 300 - 180
 		left: 75px;
-		padding:4% 4% 3% 4%;
+		padding: 55px;
 
 		&.copyOne {
 			height: 450px;
@@ -428,12 +428,13 @@ p {
 	}
 
 	.badge {
-		width: 55px;
+		width: 45px;
 		//margin-top: 30px;
 	}
 
 	.copyBlock {
 		width: 660px;// 800px;
+		padding: 70px;
 
 		&.copyOne {
 			height: 520px; //800px;
@@ -484,6 +485,17 @@ p {
 		max-width: 100%;
 	}
 
+}
+
+// XXtra Large (> HD)
+
+@media #{$xxlarge-only} { 
+
+	.fullHeight {
+		&.footer {
+				height: 1200px;
+		}
+	}
 }
 
 // iPad Landscape Exceptions
