@@ -282,18 +282,30 @@ p {
 	.copyBlock {
 		position: relative;
 		z-index: 100;
-		width: 600px; //650px; //43%;
-		height: 600px; //auto; //590px; //50%;
+		width: 590px; //650px; //43%;
+		height: 590px; //auto; //590px; //50%;
 		overflow: hidden;
 		top: 50%; //200px;
-		margin-top: -240px; // 300 - 180
+		margin-top: -235px; // 300 - 180
 		left: 75px;
 		padding:4% 4% 3% 4%;
 
+		&.copyOne {
+			height: 450px;
+			margin-top: -165px;
+		}
+
 		&.copyTwo {
+			height: 490px;
+			margin-top: -185px;
 			left: auto;
 			float: right;
 			margin-right: 75px;
+		}
+
+		&.copyThree {
+			height: 590px;
+			margin-top: -235px;
 		}
 	}
 
@@ -407,12 +419,12 @@ p {
 @media #{$xlarge-up} { 
 
 	h1 {
-		font-size: 40px;
+		font-size: 32px;
 		line-height: 3.2rem;
 	}
 
 	p {
-		font-size: 24px;
+		font-size: 18px;
 	}
 
 	.badge {
@@ -421,9 +433,22 @@ p {
 	}
 
 	.copyBlock {
-		width: 800px;
-		height: 800px;
-		margin-top: -340px;
+		width: 660px;// 800px;
+
+		&.copyOne {
+			height: 520px; //800px;
+			margin-top: -200px;
+		}
+
+		&.copyTwo {
+			height: 570px; //800px;
+			margin-top: -225px;
+		}
+
+		&.copyThree {
+			height: 660px; //800px;
+			margin-top: -270px;
+		}
 	}
 
 	.fdic {
