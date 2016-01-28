@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"copy",
+				"copyThree"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"header",
+				"headerHeight"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"backgorund",
+				"background-color"
+			],
+			[
 				"background",
 				"background-color"
 			],
 			[
-				"le",
-				"letter-spacing"
+				"window",
+				"windowHeight"
 			],
 			[
 				"backgrou",
-				"background-color"
+				"background-size"
+			],
+			[
+				"le",
+				"letter-spacing"
 			],
 			[
 				"gr",
@@ -72,10 +108,6 @@
 				"text-align"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"cap",
 				"capsuleWidth"
 			],
@@ -103,6 +135,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8720,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 10837,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -137,10 +185,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mwilson/Documents/Repo/fortisMain"
+		"/Users/mwilson/Documents/Repo/fortisMain",
+		"/Users/mwilson/Documents/Repo/fortisMain/bower_components",
+		"/Users/mwilson/Documents/Repo/fortisMain/css",
+		"/Users/mwilson/Documents/Repo/fortisMain/js",
+		"/Users/mwilson/Documents/Repo/fortisMain/scss"
 	],
 	"file_history":
 	[
+		"/Users/mwilson/Documents/Repo/fortisMain/scss/app.scss",
+		"/Users/mwilson/Documents/Repo/fortisMain/scss/_settings.scss",
+		"/Users/mwilson/Documents/Repo/fortisMain/js/app.js",
+		"/Users/mwilson/Documents/Repo/fortisMain/.gitignore",
+		"/Users/mwilson/Documents/Repo/fortisMain/bower.json",
 		"/Volumes/Old HD/Fortis/comingSoon/index.html",
 		"/Users/mwilson/Documents/Repo/fortis/index.html",
 		"/Users/mwilson/Documents/Repo/fortis/scss/app.scss",
@@ -219,7 +276,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -233,6 +290,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".row",
 			"$font-smoothing",
 			"anti",
 			"$row-width",
@@ -268,8 +326,68 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2864,
+								2864
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6385,
+								6385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6842.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
